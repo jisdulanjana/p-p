@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     }
 
     // Send email via Resend
-    const { data, error } = await resend.emails.send({
+    const { error } = await resend.emails.send({
       from: 'onboarding@resend.dev', // Use a verified sender
       to: process.env.EMAIL_TO!,
       subject: `New Contact Form Submission from ${name}`,
