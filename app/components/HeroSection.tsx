@@ -21,7 +21,7 @@ const HeroSection: FC = () => {
           priority // Load this image eagerly for above-the-fold content
         />
         <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-2">
-          Ishan S Dulanjana
+          Ishan S Dulanjana test
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-4">
           Full-Stack Developer & Tech Blogger
