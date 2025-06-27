@@ -26,8 +26,10 @@ const ContactSection: FC = () => {
         setStatus('Failed to send message. Try again later.');
       }
     } catch (error) {
-      setStatus('An error occurred. Try again later.');
-    }
+  console.error('Contact form submission error:', error);
+  setStatus('An error occurred. Try again later.');
+}
+
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
