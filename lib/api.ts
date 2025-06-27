@@ -1,4 +1,4 @@
-import { Skill } from './types';
+import { Skill, WorkExperience } from './types';
 import { Project } from './types';
 import { Content } from './types';
 
@@ -8,7 +8,13 @@ export const skills: Skill[] = [
   { id: '3', name: 'React', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg' },
   { id: '4', name: 'Next.js', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nextdotjs.svg' },
   { id: '5', name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tailwindcss.svg' },
-  { id: '6', name: 'Content Creation', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg' },
+  { id: '6', name: 'Flutter', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/flutter.svg' },
+  { id: '7', name: 'SQL', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mysql.svg' },
+  { id: '8', name: 'Firebase', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/firebase.svg' },
+  { id: '9', name: 'Supabase', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/supabase.svg' },
+  { id: '10', name: 'Dart', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/dart.svg' },
+  { id: '11', name: 'Node.js', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg' },
+  { id: '12', name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongodb.svg' },
 ];
 
 export const projects: Project[] = [
@@ -61,4 +67,23 @@ export const contentItems: Content[] = [
     thumbnail: '/images/content-thumbnails/blog2.jpg',
     url: 'https://your-blog.com/typescript-tips',
   },
+];
+
+export const workExperiences: WorkExperience[] = [
+      {
+      id: '1',
+      title: 'Full Stack Developer',
+      company: 'Adavii Tech (Pvt) Ltd',
+      location: 'Colombo, Sri Lanka',
+      period: 'May 2024 - June 2025',
+      type: 'Full-time'
+    },
+    {
+      id: '2',
+      title: 'Intern Full Stack Developer',
+      company: 'Falconet Ltd',
+      location: 'Colombo, Sri Lanka',
+      period: 'Oct 2023 - Jan 2024',
+      type: 'Internship'
+    }
 ];

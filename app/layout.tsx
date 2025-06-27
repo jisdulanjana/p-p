@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center space-x-8">
                 <a href="#home" className="text-gray-700 hover:text-black transition-colors font-medium">Home</a>
-                <a href="#skills" className="text-gray-700 hover:text-black transition-colors font-medium">Skills</a>
+                <a href="#skills" className="text-gray-700 hover:text-black transition-colors font-medium">Experiences</a>
                 <a href="#projects" className="text-gray-700 hover:text-black transition-colors font-medium">Projects</a>
                 <a href="#content" className="text-gray-700 hover:text-black transition-colors font-medium">Content</a>
                 <a 

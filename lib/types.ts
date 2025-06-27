@@ -21,3 +21,12 @@ export interface Content {
   thumbnail: string; // Path to thumbnail in /public/images/content-thumbnails
   url: string; // Link to the content
 }
+
+export interface WorkExperience {
+    id: string;
+    title: string;
+    company: string;
+    location: string;
+    period: string;
+    type: 'Full-time' | 'Part-time' | 'Internship';
+}
