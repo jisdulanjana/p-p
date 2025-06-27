@@ -40,7 +40,7 @@ const HeroSection: FC = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg"
             >
-              Hi! I'm Ishan, a software engineer based in Sri Lanka. I create 
+              Hi! I&#39;m Ishan, a software engineer based in Sri Lanka. 
               user-friendly applications and share knowledge through content creation.
             </motion.p>
 
