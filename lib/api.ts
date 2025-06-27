@@ -48,25 +48,29 @@ export const projects: Project[] = [
 export const contentItems: Content[] = [
   {
     id: '1',
-    title: 'How to Build a Next.js Portfolio',
-    type: 'blog',
-    thumbnail: '/images/content-thumbnails/blog1.jpg',
-    url: 'https://your-blog.com/nextjs-portfolio',
+    title: 'Drone Registration Sri Lanka (2025)',
+    type: 'tutorial',
+    url: 'https://youtu.be/oiHOmdPkUWU',
   },
   {
     id: '2',
-    title: 'React Hooks Tutorial',
-    type: 'video',
-    thumbnail: '/images/content-thumbnails/video1.jpg',
-    url: 'https://youtube.com/your-video',
+    title: 'Starlink is Officially in Sri Lanka!',
+    type: 'news',
+    url: 'https://youtu.be/rWb61unOx68',
   },
   {
     id: '3',
-    title: 'TypeScript Tips for Beginners',
-    type: 'blog',
-    thumbnail: '/images/content-thumbnails/blog2.jpg',
-    url: 'https://your-blog.com/typescript-tips',
+    title: 'Google VEO 3 Free Use 15 Months',
+    type: 'tutorial',
+    url: 'https://youtu.be/XeEbV93rodM',
   },
+  {
+    id: '4',
+    title: 'Sri Lanka Drone Laws Explained ( 2025 )',
+    type: 'tutorial',
+    url: 'https://youtu.be/fLGxBWzRxkI',
+  },
+  
 ];
 
 export const workExperiences: WorkExperience[] = [

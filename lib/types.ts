@@ -17,9 +17,8 @@ export interface Project {
 export interface Content {
   id: string;
   title: string;
-  type: 'blog' | 'video' | 'other';
-  thumbnail: string; // Path to thumbnail in /public/images/content-thumbnails
-  url: string; // Link to the content
+  type: string;
+  url: string;
 }
 
 export interface WorkExperience {
