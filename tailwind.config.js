@@ -6,13 +6,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        teal: {
-          500: '#2dd4bf', // Primary teal
-          600: '#0d9488', // Darker teal for hover
+        brand: {
+          light: '#EEEEEE',
+          red: '#E94560',
+          dark: '#000000',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Example: use Inter font
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-text': 'linear-gradient(135deg, #E94560 0%, #FF6B85 50%, #E94560 100%)',
       },
     },
   },
